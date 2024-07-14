@@ -2,10 +2,6 @@
 
 Bu proje, Arduino kullanarak bir LED'in sönüp yanmasını sağlar. LED 1 saniye boyunca yanar, ardından 1 saniye boyunca söner ve bu işlem sürekli olarak devam eder.
 
-## Devre Şeması
-
-![Devre Şeması](devre_samasi.png)
-
 ## Gereksinimler
 
 - Arduino Uno veya benzeri
