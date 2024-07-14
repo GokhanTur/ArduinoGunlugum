@@ -1,0 +1,33 @@
+#include <OneWire.h>
+#include <DallasTemperature.h>
+
+// Sensör pinini tanımla
+const int sensorPin = 2;
+
+// Sensör nesnesi oluştur
+OneWire oneWire(sensorPin);
+DallasTemperature sensors(&oneWire);
+
+void setup() {
+  // Seri bağlantı başlat
+  Serial.begin(9600);
+
+  // Sensör ile iletişimi başlat
+  sensors.begin();
+}
+
+void loop() {
+  // Sıcaklık ölçümü yap
+  sensors.requestTemperatures();
+
+  // Sensörden sıcaklık değerini al
+  float tempC = sensors.getTempCByIndex(0);
+
+  // Sıcaklık değerini seri monitöre yaz
+  Serial.print("Sicaklik: ");
+  Serial.print(tempC);
+  Serial.println(" °C");
+
+  // 2 saniye bekleyerek tekrar ölçüm yap
+  delay(2000);
+}
