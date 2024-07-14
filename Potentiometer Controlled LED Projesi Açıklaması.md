@@ -2,9 +2,6 @@
 
 Bu proje, bir potansiyometre kullanarak Arduino ile bir LED'in parlaklığını ayarlar.
 
-## Devre Şeması
-
-![Devre Şeması](devre_samasi.png)
 
 ## Gereksinimler
 
