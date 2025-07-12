@@ -1,0 +1,22 @@
+SERVO MOTOR CONTROL - How To
+
+This project controls the position of a servo motor using an Arduino. The servo moves between 0° and 180° positions.
+
+💡 Required Materials:
+- Arduino Uno or compatible
+- 1 × Servo motor (SG90 or similar)
+- Jumper wires
+- Breadboard (optional)
+- USB cable
+
+🔌 Circuit Connections:
+- Connect the servo's signal wire (usually orange/yellow) to digital pin 9.
+- Connect the power wire (red) to 5V.
+- Connect the ground wire (brown/black) to GND.
+
+🖥️ Steps:
+1. Open Arduino IDE.
+2. Go to Tools > Manage Libraries, install the "Servo" library if needed.
+3. Paste the code into the IDE.
+4. Upload the code.
+5. The servo will sweep back and forth automatically.
