@@ -1,4 +1,4 @@
-# 📘 ArduinoGunlugum
+# 📘 ArduinoGunlugum/MyArduinoDiary
 
 A comprehensive repository of Arduino sample projects with detailed documentation.  
 Each project includes step-by-step explanations and visuals.  
