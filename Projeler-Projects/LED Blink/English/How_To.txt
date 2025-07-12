@@ -1,0 +1,23 @@
+LED BLINK PROJECT - How To
+
+This project will make an LED connected to an Arduino board blink continuously. The LED will turn on for one second, then turn off for one second in a loop.
+
+💡 Required Materials:
+- 1 × Arduino Uno (or compatible)
+- 1 × LED
+- 1 × 220 ohm resistor
+- Jumper wires
+- Breadboard (optional)
+- USB cable for uploading code
+
+🔌 Circuit Connections:
+- Connect the long leg (anode) of the LED to digital pin 13 on the Arduino.
+- Connect the short leg (cathode) of the LED to one end of a 220 ohm resistor.
+- Connect the other end of the resistor to the GND pin on the Arduino.
+
+🖥️ Steps:
+1. Open the Arduino IDE.
+2. Connect your Arduino to your computer using a USB cable.
+3. Paste the provided code into the IDE.
+4. Click the Upload (→) button.
+5. The LED should blink once every second.
