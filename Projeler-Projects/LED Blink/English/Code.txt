@@ -1,0 +1,27 @@
+// Define the LED pin
+// LED pinini tanımla
+const int ledPin = 13;
+
+void setup() {
+  // Set LED pin as output
+  // LED pinini çıkış olarak ayarla
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Turn the LED on
+  // LED'i yak
+  digitalWrite(ledPin, HIGH);
+
+  // Wait for 1 second
+  // 1 saniye bekle
+  delay(1000);
+
+  // Turn the LED off
+  // LED'i söndür
+  digitalWrite(ledPin, LOW);
+
+  // Wait for 1 second
+  // 1 saniye bekle
+  delay(1000);
+}
