@@ -1,0 +1,22 @@
+TEMPERATURE & HUMIDITY SENSOR (DHT11) - How To
+
+This project reads temperature data using a DHT11 sensor and displays the result via the serial monitor.
+
+💡 Required Materials:
+- Arduino Uno or compatible
+- 1 × DHT11 sensor
+- Jumper wires
+- Breadboard
+- USB cable
+
+🔌 Circuit Connections:
+- Connect the VCC pin of the DHT11 to 5V on Arduino.
+- Connect the GND pin of the DHT11 to GND on Arduino.
+- Connect the DATA pin of the DHT11 to digital pin 2.
+
+🖥️ Steps:
+1. Install the "DHT sensor library" and "Adafruit Unified Sensor" via Library Manager in Arduino IDE.
+2. Open Arduino IDE and connect your Arduino.
+3. Paste the code into the IDE.
+4. Upload the code.
+5. Open the Serial Monitor to see the temperature and humidity readings.
