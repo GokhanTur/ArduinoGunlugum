@@ -1,0 +1,23 @@
+LCD EKRANA METİN YAZDIRMA - Nasıl Yapılır?
+
+Bu proje, Arduino kullanarak 16x2 LCD ekrana özel metinler yazdırır.
+
+💡 Gerekli Malzemeler:
+- Arduino Uno veya uyumlu
+- 1 × 16x2 LCD ekran (I2C modülü önerilir)
+- Jumper kablolar
+- Breadboard (I2C yoksa)
+- USB kablosu
+
+🔌 Devre Bağlantıları (I2C LCD için):
+- LCD’nin VCC pini → 5V
+- LCD’nin GND pini → GND
+- SDA pini → A4 (Uno)
+- SCL pini → A5 (Uno)
+
+🖥️ Adımlar:
+1. Arduino IDE’den “LiquidCrystal_I2C” kütüphanesini yükleyin.
+2. Arduino’yu bilgisayara bağlayın.
+3. Aşağıdaki kodu IDE’ye yapıştırın.
+4. Kodu yükleyin.
+5. LCD ekranda özel metinlerin görüntülendiğini gözlemleyin.
