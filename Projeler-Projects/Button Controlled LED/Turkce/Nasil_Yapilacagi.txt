@@ -1,0 +1,25 @@
+BUTON İLE LED YAKMA - Nasıl Yapılır?
+
+Bu proje, bir butona basıldığında LED'in yanmasını sağlar.
+
+💡 Gerekli Malzemeler:
+- Arduino Uno veya uyumlu
+- 1 LED
+- 1 × 220 ohm direnç
+- 1 buton
+- Jumper kablolar
+- Breadboard
+- USB kablosu
+
+🔌 Devre Bağlantıları:
+- LED’in uzun bacağı (anot) Arduino’nun 13. pinine bağlanır.
+- Kısa bacak (katot) 220 ohm direnç üzerinden GND'ye bağlanır.
+- Butonun bir bacağı Arduino’nun 2. pinine bağlanır.
+- Diğer bacağı GND'ye bağlanır.
+
+🖥️ Adımlar:
+1. Arduino IDE’yi açın.
+2. Arduino’yu bilgisayara bağlayın.
+3. Aşağıdaki kodu IDE’ye yapıştırın.
+4. Kodu yükleyin.
+5. Butona bastığınızda LED'in yandığını gözlemleyin.
