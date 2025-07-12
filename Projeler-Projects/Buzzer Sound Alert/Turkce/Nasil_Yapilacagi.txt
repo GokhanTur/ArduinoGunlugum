@@ -1,0 +1,21 @@
+BUZZER İLE SESLİ UYARI - Nasıl Yapılır?
+
+Bu proje, bir piezo buzzer kullanarak Arduino ile bip sesi üretir. Buzzer her 1 saniyede bir ses çıkarır.
+
+💡 Gerekli Malzemeler:
+- Arduino Uno veya uyumlu
+- 1 × Piezo buzzer (aktif veya pasif)
+- Jumper kablolar
+- Breadboard (isteğe bağlı)
+- USB kablosu
+
+🔌 Devre Bağlantıları:
+- Buzzer’ın artı bacağı dijital pin 8’e bağlanır.
+- Eksi bacağı GND pinine bağlanır.
+
+🖥️ Adımlar:
+1. Arduino IDE’yi açın.
+2. Arduino kartını bilgisayara bağlayın.
+3. Aşağıdaki kodu IDE’ye yapıştırın.
+4. Kodu yükleyin.
+5. Buzzer’ın belirli aralıklarla bip sesi çıkardığını duyun.
