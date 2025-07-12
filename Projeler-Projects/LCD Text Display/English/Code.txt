@@ -1,0 +1,17 @@
+#include <Wire.h>                      // Include Wire library for I2C communication
+#include <LiquidCrystal_I2C.h>        // Include library for I2C LCD
+
+LiquidCrystal_I2C lcd(0x27, 16, 2);   // Set the LCD I2C address and dimensions
+
+void setup() {
+  lcd.begin();                        // Initialize the LCD
+  lcd.backlight();                    // Turn on the LCD backlight
+  lcd.setCursor(0, 0);                // Set cursor to column 0, row 0
+  lcd.print("Hello, Arduino!");       // Print message on first row
+  lcd.setCursor(0, 1);                // Set cursor to column 0, row 1
+  lcd.print("LCD Text Display");      // Print message on second row
+}
+
+void loop() {
+  // Nothing to do here
+}
