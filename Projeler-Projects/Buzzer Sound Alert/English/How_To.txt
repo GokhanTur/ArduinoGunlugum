@@ -1,0 +1,21 @@
+BUZZER SOUND ALERT - How To
+
+This project generates a beep sound using a piezo buzzer connected to an Arduino. The buzzer will beep repeatedly at 1-second intervals.
+
+💡 Required Materials:
+- Arduino Uno or compatible
+- 1 × Piezo buzzer (active or passive)
+- Jumper wires
+- Breadboard (optional)
+- USB cable
+
+🔌 Circuit Connections:
+- Connect the positive leg of the buzzer to digital pin 8.
+- Connect the negative leg of the buzzer to GND.
+
+🖥️ Steps:
+1. Open the Arduino IDE.
+2. Connect the Arduino board to your PC.
+3. Paste the code into the IDE.
+4. Upload the code to your Arduino.
+5. The buzzer will produce periodic beep sounds.
