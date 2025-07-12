@@ -1,0 +1,17 @@
+#include <Wire.h>                        // I2C haberleşme için Wire kütüphanesini ekle
+#include <LiquidCrystal_I2C.h>          // I2C LCD ekran için kütüphaneyi ekle
+
+LiquidCrystal_I2C lcd(0x27, 16, 2);     // LCD ekranın adresini ve boyutunu ayarla
+
+void setup() {
+  lcd.begin();                          // LCD ekranı başlat
+  lcd.backlight();                      // Arka ışığı aç
+  lcd.setCursor(0, 0);                  // 1. satır 0. sütuna imleci yerleştir
+  lcd.print("Merhaba Arduino!");        // İlk satıra mesaj yaz
+  lcd.setCursor(0, 1);                  // 2. satır 0. sütuna geç
+  lcd.print("LCD Metin Yazici");        // İkinci satıra mesaj yaz
+}
+
+void loop() {
+  // Döngü içinde işlem yok
+}
