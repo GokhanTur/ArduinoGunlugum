@@ -1,0 +1,23 @@
+LCD TEXT DISPLAY - How To
+
+This project displays custom text on a 16x2 LCD using an Arduino.
+
+💡 Required Materials:
+- Arduino Uno or compatible
+- 1 × 16x2 LCD screen (with I2C module recommended)
+- Jumper wires
+- Breadboard (if no I2C)
+- USB cable
+
+🔌 Circuit Connections (for I2C LCD):
+- Connect VCC of the LCD to 5V on Arduino.
+- Connect GND to GND.
+- Connect SDA to A4 (Uno).
+- Connect SCL to A5 (Uno).
+
+🖥️ Steps:
+1. Install the "LiquidCrystal_I2C" library in Arduino IDE.
+2. Open Arduino IDE and connect your Arduino.
+3. Paste the code into the IDE.
+4. Upload the code to the board.
+5. The LCD should display the custom message.
