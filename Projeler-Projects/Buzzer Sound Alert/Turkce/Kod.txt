@@ -1,0 +1,13 @@
+// Buzzer pinini tanımla
+const int buzzerPin = 8;
+
+void setup() {
+  pinMode(buzzerPin, OUTPUT);             // Buzzer pinini çıkış olarak ayarla
+}
+
+void loop() {
+  digitalWrite(buzzerPin, HIGH);          // Buzzer'ı çalıştır
+  delay(500);                             // 0.5 saniye bekle
+  digitalWrite(buzzerPin, LOW);           // Buzzer'ı kapat
+  delay(500);                             // 0.5 saniye bekle
+}
