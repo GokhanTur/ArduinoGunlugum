@@ -1,0 +1,22 @@
+SICAKLIK VE NEM SENSÖRÜ (DHT11) - Nasıl Yapılır?
+
+Bu proje, DHT11 sensörü ile sıcaklık ve nem değerlerini okuyup seri monitörde görüntülemeyi sağlar.
+
+💡 Gerekli Malzemeler:
+- Arduino Uno veya uyumlu
+- 1 × DHT11 sensör
+- Jumper kablolar
+- Breadboard
+- USB kablosu
+
+🔌 Devre Bağlantıları:
+- DHT11'in VCC pini Arduino’nun 5V pinine bağlanır.
+- GND pini GND’ye bağlanır.
+- DATA pini dijital 2. pine bağlanır.
+
+🖥️ Adımlar:
+1. Arduino IDE'nin Kütüphane Yöneticisi'nden "DHT sensor library" ve "Adafruit Unified Sensor" kütüphanelerini kurun.
+2. Arduino IDE’yi açın ve Arduino’yu bağlayın.
+3. Aşağıdaki kodu yapıştırın.
+4. Kodu yükleyin.
+5. Seri Monitörü açarak sıcaklık ve nem verilerini gözlemleyin.
