@@ -1,0 +1,24 @@
+POTANSİYOMETRE İLE LED PARLAKLIĞI - Nasıl Yapılır?
+
+Bu proje, bir potansiyometre ile LED'in parlaklığını ayarlamayı sağlar.
+
+💡 Gerekli Malzemeler:
+- Arduino Uno veya uyumlu
+- 1 LED
+- 1 potansiyometre
+- Jumper kablolar
+- Breadboard
+- USB kablosu
+
+🔌 Devre Bağlantıları:
+- LED’in uzun bacağı (anot) Arduino’nun 9. pinine bağlanır.
+- Kısa bacak (katot) GND'ye bağlanır.
+- Potansiyometrenin orta bacağı analog A0 pinine bağlanır.
+- Diğer iki bacak 5V ve GND’ye bağlanır.
+
+🖥️ Adımlar:
+1. Arduino IDE’yi açın.
+2. Arduino’yu bilgisayara bağlayın.
+3. Aşağıdaki kodu IDE’ye yapıştırın.
+4. Kodu yükleyin.
+5. Potansiyometreyi çevirerek LED parlaklığının değişimini gözlemleyin.
