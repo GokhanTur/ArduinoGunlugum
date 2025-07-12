@@ -1,0 +1,19 @@
+#include <Servo.h>                         // Servo kütüphanesini dahil et
+
+Servo myServo;                            // Servo nesnesi oluştur
+
+void setup() {
+  myServo.attach(9);                      // Servo motoru dijital pin 9'a bağla
+}
+
+void loop() {
+  for (int pos = 0; pos <= 180; pos++) {  // 0°'dan 180°'ye kadar dön
+    myServo.write(pos);                   // Konumu servo'ya ata
+    delay(15);                            // Hareket için kısa gecikme
+  }
+
+  for (int pos = 180; pos >= 0; pos--) {  // 180°'den 0°'a geri dön
+    myServo.write(pos);                   // Konumu servo'ya ata
+    delay(15);                            // Hareket için kısa gecikme
+  }
+}
