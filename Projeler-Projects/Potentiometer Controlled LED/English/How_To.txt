@@ -1,0 +1,24 @@
+POTENTIOMETER CONTROLLED LED - How To
+
+This project adjusts the brightness of an LED using a potentiometer connected to an Arduino.
+
+💡 Required Materials:
+- Arduino Uno or compatible
+- 1 LED
+- 1 potentiometer
+- Jumper wires
+- Breadboard
+- USB cable
+
+🔌 Circuit Connections:
+- Connect the long leg (anode) of the LED to digital pin 9 on the Arduino.
+- Connect the short leg (cathode) of the LED to GND.
+- Connect the middle pin of the potentiometer to analog pin A0.
+- Connect the side pins of the potentiometer to 5V and GND respectively.
+
+🖥️ Steps:
+1. Open Arduino IDE.
+2. Connect the Arduino to your computer.
+3. Paste the code into the IDE.
+4. Upload the code.
+5. Turn the potentiometer and observe the LED brightness change.
