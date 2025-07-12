@@ -1,0 +1,22 @@
+SERVO MOTOR KONTROLÜ - Nasıl Yapılır?
+
+Bu proje, bir servo motorun konumunu Arduino ile kontrol eder. Servo 0° ile 180° arasında hareket eder.
+
+💡 Gerekli Malzemeler:
+- Arduino Uno veya uyumlu
+- 1 × Servo motor (SG90 veya benzeri)
+- Jumper kablolar
+- Breadboard (isteğe bağlı)
+- USB kablosu
+
+🔌 Devre Bağlantıları:
+- Servo'nun sinyal kablosu (genellikle turuncu/sarı) → Dijital pin 9
+- Güç kablosu (kırmızı) → 5V
+- GND kablosu (siyah/kahverengi) → GND
+
+🖥️ Adımlar:
+1. Arduino IDE’yi açın.
+2. Gerekirse Araçlar > Kütüphane Yöneticisi’nden "Servo" kütüphanesini yükleyin.
+3. Aşağıdaki kodu yapıştırın.
+4. Kodu Arduino’ya yükleyin.
+5. Servo motorun ileri geri hareket ettiğini gözlemleyin.
